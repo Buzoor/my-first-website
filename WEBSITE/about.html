@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <style>
+      img {
+        width: 250px;
+        height: 350px;
+      }
+      button:hover {
+            color: rgb(241, 237, 237);
+            background-color: #333;
+            text-decoration-thickness: 5px;
+        }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(221, 96, 96, 0.589);
+      }
+
+      li {
+        float: left;
+        padding: 14px 16px;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: rgb(241, 64, 64);
+      }
+
+      .active {
+        background-color: #ca1717;
+      }
+      body {
+        background-image: url(beat2.jpg);
+      }
+
+    </style>
+  </head>
+
+  <body>
+      <header style="color: whitesmoke;">
+          <h1>
+              MARVELOUS OBIJI &#128526
+          </h1>
+          <p style="font-size: large;">My First Website</p>
+      </header>
+    <div>
+      <nav >
+        <ul style="background-color: #333;">
+          <li>
+            <a href="contact.html" target="_blank" rel="noopener noreferrer"
+              >Contact</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="registration.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Registration</a
+            >
+          </li>
+
+          <li>
+            <a href="login.html" target="_blank" rel="noopener noreferrer"
+              >Login</a
+            >
+          </li>
+          <li style="float: right">
+            <a
+              class="active"
+              href="about.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Home</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div style="background-color: #ffffffb7; max-height: fit-content">
+      <br /><br />
+      <figure
+        style="
+          border: 2px black;
+          border-radius: 20px;
+          box-shadow: 20px 20px 30px 0px rgba(85, 2, 2, 0.918);
+          margin-top: 10px;
+          padding-left: 20px;
+          padding-top: 10px;
+          margin-right: 800px;
+        "
+        class="column"
+      >
+        <img
+          src="buzoor.jpg"
+          alt="Marvelous"
+          style="border: solid black; border-radius: 100px"
+        />
+        <figcaption>hh</figcaption>
+      </figure>
+      <br /><br />
+      <div
+        style="
+          border: 0px solid;
+          width: 85%;
+          padding-bottom: 20px;
+          padding-left: 20px;
+        "
+      >
+        <h2>About me;</h2>
+        <blockquote
+          style="
+            overflow: scroll;
+            border-radius: 10px;
+            background-color: rgba(222, 223, 213, 0.596);
+            width: 500px;
+            height: 100px;
+            box-shadow: 20px 20px 30px 0px rgba(85, 2, 2, 0.918);
+          "
+        >
+          <p1 style="padding: 5px"
+            >Obiji Marvelous Chibuzo, a skilled shoe-maker, smartphone
+            filmmaker, aspiring software developer, and botanist. I graduated
+            with BSc.Botany from the department of Botany, Obafemi Awolowo
+            University, Ileife, Nigeria. I am a 360-degree leader, meaning no
+            matter the position I find myself in at any point in time, I will
+            always add value to the best of my knowledge and ability. Teamwork,
+            and problem-solving has always been an experience I have grown to
+            enjoy. With me, Positive change can be a reality.
+          </p1>
+        </blockquote>
+       
+
+        <hr />
+      </div>
+    </div>
+    <svg
+      width="fill"
+      height="70"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+    >
+      <path
+        id="wavepath"
+        d="M0,0  L110,0C35,150 35,0 0,100z"
+        fill="#ffffffb7"
+      ></path>
+    </svg>
+    <div
+      style="background-color: #ffffffb7; width: 800px; border-radius: 10px; box-shadow: 0px 10px 20px 0px rgba(235, 229, 229, 0.685);"
+    >
+      <h1 style="margin-left: 5%;">Hobbies</h1>
+      <ul>
+        <li>story telling</li>
+        <li>acting</li>
+        <li>playing piano</li>
+      </ul>
+    </div>
+    <div
+      style=" border-radius: 10px; width: 800px;
+        background-color: #ffffffb7;
+        box-shadow:  0px 10px 20px 0px rgba(235, 229, 229, 0.685);
+      "
+    >
+      <h1 style="margin-left: 5%;">Priorities</h1>
+      <ul>
+        <li>Praying</li>
+        <li>Working</li>
+        <li>Resting</li>
+        <li>Playing</li>
+      </ul>
+    </div>
+
+    <div
+      style=" border-radius: 10px; width: 800px;
+        background-color: #ffffffb7;
+        box-shadow:  0px 10px 20px 0px rgba(235, 229, 229, 0.685);
+      "
+    >
+      <h1 style="margin-left: 5%;">Skills</h1>
+      <ul>
+        <li>Smartphone Filmmaking</li>
+        <li>Website Development</li>
+        <li>Shoe Making</li>
+      </ul>
+    </div>
+    <br><br>
+    <button onclick="contact.html"
+    style=" width: 20%; margin-right: 40%; margin-left: 40%; height: 80px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: xx-large; border-radius: 10px;"
+  >
+    Contact Me
+  </button>
+  <br>
+    <hr />
+    <footer style="background-color: #ffffff83;">
+        <div style="width: 40%; height: fit-content; background-color: azure; margin-left: 30%; margin-right: 30%;">
+            <ul style=" background-color: transparent;">
+                <li><a href="https://github.com/Buzoor"><img src="git.png" alt="git" style="width: 20px; height: 20px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/marvelous-obiji-3a842b231"><img src="linkedin.png" alt="linkedin" style="width: 30px; height:30px;"></a></li>
+                <li><a href="https://www.Twitter.com/Buzoor_"><img src="tweet.png" alt="tweet" style="width: 20px; height: 20px;"></a></li>
+                <li><a href="https://www.instagram.com/buzoor_/"><img src="insta.png" alt="insta" style="width: 20px; height: 20px;"></a></li>
+                <li><a href="https://web.facebook.com/marvelous.obiji"><img src="facebook.png" alt="facebook" style="width: 20px; height: 20px;"></a></li>
+            </ul>
+        </div>
+
+          <p style="text-align: center; padding-bottom: 20px;">
+            A simple HTML & CSS-driven website made up of linked pages and styled content. <br> &#169 marvelous obiji 2022
+          </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+        form {
+            border: 3px solid black;
+        }
+        button:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        input{
+            border-radius: 10px;
+        }
+        button:hover {
+            color: rgb(3, 2, 2);
+            background-color: rgba(255, 0, 0, 0.568);
+            text-decoration-thickness: 5px;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: rgb(241, 64, 64);
+      }
+
+      .active {
+        background-color: #ca1717;
+      }
+    </style>
+</head>
+<body style="  background-image: url(beat2.jpg);">
+    <header style="color: whitesmoke;">
+        <h1>
+            MARVELOUS OBIJI
+        </h1>
+        <p style="font-size: large;">My First Website</p>
+    </header>
+    <div>
+        <nav>
+          <ul>
+            
+            <li>
+              <a  class="active" href="contact.html" target="_blank" rel="noopener noreferrer"
+                >Contact</a
+              >
+            </li>
+  
+            <li>
+              <a
+                href="registration.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Registration</a
+              >
+            </li>
+  
+            <li>
+              <a href="login.html" target="_blank" rel="noopener noreferrer"
+                >Login</a
+              >
+            </li>
+            <li style="float: right;">
+                <a href="about.html" target="_blank" rel="noopener noreferrer">Home</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <div style="text-align: center; padding-top: 30px; color: aliceblue;">
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Contact Information</h1>
+        <p1> <i> Contact me via any of the following; </i></p1>
+    </div>
+    <br><br><br>
+    <div style="margin-right: 25%; margin-left: 25%; border-radius: 20px; background-color: #ffffffb7;  box-shadow: 20px 20px 30px 0px rgba(85, 2, 2, 0.918);">
+        <form action="" style="padding: 50px; ">
+            <div style=" margin-top: 10px;">
+                <label for="name"><b> NAME </b></label><br>
+                <input type="text" name="name" placeholder=" Input your name" style="width: 500px;" required>
+            </div>
+            <div style=" margin-top: 10px;">
+                <label for="email"><b> EMAIL </b></label><br>
+                <input type="email" name="email" placeholder=" Input your email" style="width: 500px;" required>
+            </div>
+            <div style=" margin-top: 10px;">
+                <label for="text"><b> MESSAGE </b></label><br>
+                <input type="text" name="text" placeholder="write your message..." style=" height: 50px; width: 500px;" required>
+            </div>
+            <button style="width: 50%; border-radius: 20px; height: 50%; padding: 20px; margin-top: 10px; margin-right: 25%; margin-left: 25%; text-align: center;"><a href="mailto:marvelousobiji@gmail.com"></a>Send Message</button>
+        </form>
+        
+    </div>
+    <br>
+    <hr />
+    <footer style="background-color: #ffffff83;">
+        <div style="width: 40%; height: fit-content; background-color: azure; margin-left: 30%; margin-right: 30%;">
+            <ul style=" background-color: transparent;">
+                <li><a href="https://github.com/Buzoor"><img src="git.png" alt="git" style="width: 20px; height: 20px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/marvelous-obiji-3a842b231"><img src="linkedin.png" alt="linkedin" style="width: 30px; height:30px;"></a></li>
+                <li><a href="https://www.Twitter.com/Buzoor_"><img src="tweet.png" alt="tweet" style="width: 20px; height: 20px;"></a></li>
+                <li><a href="https://www.instagram.com/buzoor_/"><img src="insta.png" alt="insta" style="width: 20px; height: 20px;"></a></li>
+                <li><a href="https://web.facebook.com/marvelous.obiji"><img src="facebook.png" alt="facebook" style="width: 20px; height: 20px;"></a></li>
+            </ul>
+        </div>
+
+          <p style="text-align: center; padding-bottom: 20px;">
+            A simple HTML & CSS-driven website made up of linked pages and styled content. <br> &#169 marvelous obiji 2022
+          </p>
+    </footer>
+</body>
+</html>
